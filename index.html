@@ -48,7 +48,7 @@
         </main>
         <script src="./js/script.js"></script>
         <script>
-            fetch("https://api.github.com/repos/ka-thas/kathas.tech/commits/main")
+            fetch("https://api.github.com/repos/ka-thas/kathas.no/commits/main")
                 .then((response) => response.json())
                 .then((data) => {
                     const commitDate = new Date(data.commit.author.date);
